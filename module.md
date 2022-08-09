@@ -15,6 +15,8 @@ void loop() {
 
 2. Exercise 2
 
+<img src="schematic/Exercise 2.png" style="height: 500px;"/>
+
 ```c++
 void setup() {
   pinMode(3, OUTPUT);
@@ -49,6 +51,8 @@ void loop() {
 ```
 
 4. Exercise 4
+
+<img src="schematic/Exercise 4.png" style="height: 500px;"/>
 
 ```c++
 void setup() {
