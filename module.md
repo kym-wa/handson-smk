@@ -93,7 +93,7 @@ void loop() {
 
 <img src="schematic/Exercise 6.png" style="height: 500px;"/>
 
-[Download Library](https://downgit.github.io/#/home?url=https://github.com/kym-wa/handson-smk/blob/main/library/Arduino-IRremote-master.zip)
+[Download Library](https://raw.githubusercontent.com/kym-wa/handson-smk/main/library/Arduino-IRremote-master.zip)
 
 ```c++
 void setup() {
