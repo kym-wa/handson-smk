@@ -68,6 +68,8 @@ void loop() {
 
 5. Exercise 5
 
+<img src="schematic/Exercise 5.png" style="height: 500px;"/>
+
 ```c++
 void setup() {
   pinMode(A0, INPUT);
@@ -89,6 +91,8 @@ void loop() {
 
 6. Exercise 6
 
+<img src="schematic/Exercise 6.png" style="height: 500px;"/>
+
 ```c++
 void setup() {
   pinMode(7, INPUT_PULLUP);
@@ -102,6 +106,8 @@ void loop() {
 ```
 
 7. Exercise 7
+
+<img src="schematic/Exercise 7.png" style="height: 500px;"/>
 
 ```c++
 #include <IRremote.h>
