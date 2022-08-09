@@ -81,7 +81,20 @@ void loop() {
     digitalWrite(3, HIGH);
   }
 }
+```
 
+6. Exercise 6
+
+```c++
+void setup() {
+  pinMode(7, INPUT_PULLUP);
+  Serial.begin(115200);
+}
+
+void loop() {
+  int pb = digitalRead(7);
+  Serial.println(pb);
+}
 ```
 
 7. Exercise 7
@@ -101,6 +114,36 @@ void loop() {
   if (IrReceiver.decode()) {
     IrReceiver.printIRResultShort(&Serial);
     IrReceiver.resume();
+  }
+}
+```
+
+8. Exercise 8
+
+```c++
+#include <IRremote.h>
+
+int IR_RECEIVE_PIN = 11;
+
+void setup()
+{
+  Serial.begin(115200);
+  pinMode(13, OUTPUT);
+  IrReceiver.begin(IR_RECEIVE_PIN);
+}
+
+void loop() {
+  if (IrReceiver.decode()) {
+    IrReceiver.printIRResultShort(&Serial);
+    IrReceiver.resume();
+
+    if (IrReceiver.decodedIRData.command == 0x16) {
+      Serial.println("0");
+      digitalWrite(13, LOW);
+    } else   if (IrReceiver.decodedIRData.command == 0xC) {
+      Serial.println("1");
+      digitalWrite(13, HIGH);
+    }
   }
 }
 ```
