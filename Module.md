@@ -1,6 +1,6 @@
 1. Exercise 1
 
-```arduino
+```c++
 void setup() {
   pinMode(LED_BUILTIN, OUTPUT);
 }
@@ -15,7 +15,7 @@ void loop() {
 
 2. Exercise 2
 
-```arduino
+```c++
 void setup() {
   pinMode(3, OUTPUT);
 }
