@@ -27,3 +27,37 @@ void loop() {
   delay(1000);
 }
 ```
+
+3. Exercise 3
+
+```c++
+void setup() {
+  pinMode(3, OUTPUT);
+}
+
+void loop() {
+  for (int i = 0; i < 255; i++) {
+    analogWrite(3, i);
+    delay(10);
+  }
+
+  for (int i = 255; i > 0; i--) {
+    analogWrite(3, i);
+    delay(10);
+  }
+}
+```
+
+4. Exercise 4
+
+```c++
+void setup() {
+  pinMode(A0, INPUT);
+  Serial.begin(115200);
+}
+
+void loop() {
+  int a0 = analogRead(A0);
+  Serial.println(a0);
+}
+```
