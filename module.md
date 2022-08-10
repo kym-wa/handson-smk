@@ -1,4 +1,4 @@
-[Materi](https://raw.githubusercontent.com/kym-wa/handson-smk/main/Materi Arduino.pdf)
+[Materi](https://raw.githubusercontent.com/kym-wa/handson-smk/main/Materi-Arduino.pdf)
 
 1. Exercise 1
 
