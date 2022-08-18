@@ -1,6 +1,6 @@
 [Materi](https://raw.githubusercontent.com/kym-wa/handson-smk/main/Materi-Arduino.pdf)
 
-1. Exercise 1
+## Exercise 1
 
 ```c++
 void setup() {
@@ -15,7 +15,7 @@ void loop() {
 }
 ```
 
-2. Exercise 2
+## Exercise 2
 
 <img src="schematic/Exercise 2.png" style="height: 500px;"/>
 
@@ -32,7 +32,19 @@ void loop() {
 }
 ```
 
-3. Exercise 3
+## Exercise 3
+
+```c++
+void setup() {
+  pinMode(3, OUTPUT);
+}
+
+void loop() {
+  analogWrite(3, 100);
+}
+```
+
+### Exercise 3.1
 
 ```c++
 void setup() {
@@ -52,7 +64,7 @@ void loop() {
 }
 ```
 
-4. Exercise 4
+## Exercise 4
 
 <img src="schematic/Exercise 4.png" style="height: 500px;"/>
 
@@ -68,7 +80,7 @@ void loop() {
 }
 ```
 
-5. Exercise 5
+## Exercise 5
 
 <img src="schematic/Exercise 5.png" style="height: 500px;"/>
 
@@ -91,11 +103,9 @@ void loop() {
 }
 ```
 
-6. Exercise 6
+## Exercise 6
 
 <img src="schematic/Exercise 6.png" style="height: 500px;"/>
-
-[Download Library](https://raw.githubusercontent.com/kym-wa/handson-smk/main/library/Arduino-IRremote-master.zip)
 
 ```c++
 void setup() {
@@ -109,9 +119,11 @@ void loop() {
 }
 ```
 
-7. Exercise 7
+## Exercise 7
 
 <img src="schematic/Exercise 7.png" style="height: 500px;"/>
+
+[Download Library](https://raw.githubusercontent.com/kym-wa/handson-smk/main/library/Arduino-IRremote-master.zip)
 
 ```c++
 #include <IRremote.h>
@@ -132,7 +144,7 @@ void loop() {
 }
 ```
 
-8. Exercise 8
+## Exercise 8
 
 ```c++
 #include <IRremote.h>
